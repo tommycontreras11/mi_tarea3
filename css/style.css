@@ -1,0 +1,104 @@
+.container {
+    width: 600px;
+    height: 350px;
+    margin: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightskyblue;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container .titulo {
+    width: 592px;
+    padding: 4px;
+    background-color: lightskyblue;
+}
+
+.container .titulo p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+.container .content {
+    display: flex;
+}
+
+.container .content-body {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+form {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#inputnombre, #inputapellido, #inputtelefono {
+    width: 440px;
+    height: 34px;
+    margin-bottom: 20px;
+    margin-left: 68px;
+    border: solid 0.2px lightskyblue;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#submit {
+    width: 386px;
+    padding: 6px;
+    margin-bottom: 20px;
+    margin-left: 98px;
+    border: solid 0.2px lightskyblue;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#submit:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.resultado {
+    width: 600px;
+    height: 140px;
+    background-color: dodgerblue;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.resultado .content {
+    width: 580px;
+    height: 40px;
+}
+
+.resultado .content .result {
+    width: 580px;
+    height: 100px;
+    background-color: white;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 9px;
+}
+
+.resultado .content .result .resultado-final{
+    margin-top: 4px;
+    margin-left: 9px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
